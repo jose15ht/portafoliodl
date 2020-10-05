@@ -1,18 +1,26 @@
 body {
-   background-color:#052540;
-   color: #fef6ff
+   background-color:#0863BE;
 }
 
-h1, h2, h3, h4 {
+h1 {
+   font-family: 'David Libre', serif;
+   font-size: 2.5em;
+   font-weight: 700;
+   color: #fef6ff;
+}
+
+h2, h3, h4 {
    font-family: 'Fire Sans', sans-serif;
    font-size: 1.5em;
    font-weight: 700;
+   color: #fef6ff;
 }
 
 p {
-   font-family: 'David Libre', serif;
+   font-family: 'Fire Sans', sans-serif;
    color: #fef6ff;
    font-size: 1em;
+   line-height: 1.6;
 
 }
 
@@ -36,3 +44,6 @@ i {
    width: 90%;
 }
 
+.darker {
+  background-color: #22272C;
+}
